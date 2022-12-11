@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+}
+main{
+    height: 100vh;
+    background-color: #E0E0E0;
+    position: relative;
+}
+.container{
+    height: 60%; 
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 15px #afafaf,
+             -5px -5px 15px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_area{
+    text-align: center;
+    height: 300px;
+    width: 80%;
+}
+.text_area h2 .meaw{
+    color: rgb(58, 138, 65);
+    font-size: 24px;
+}
+.text_area h2{
+    font-size: 50px;
+}
+.text_area h4{
+    font-size: 70px;
+    font-family: sans-serif; 
+    margin-top: 35px;
+    height: 100px;
+    font-weight: 700; 
+    color: #0f0f0f;
+}
+
+.button_area{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.button_area .counterBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px; 
+    font-size: 25px;
+}
+
+.button_area .counterBtn:hover{
+    background-color: #afafaf;
+    transition: .4s ease;
+    color: #F0F0F0;  
+    cursor: pointer; 
+}
