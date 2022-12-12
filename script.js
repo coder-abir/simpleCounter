@@ -7,7 +7,9 @@ deductBtn.addEventListener('click',function(){
     counter.innerHTML = count;
     if(count < 0){ 
         counter.style.color = "red";
-    } 
+    }else if(count === 0){
+        counter.style.color = "black";
+    }
 })
 
 addBtn.addEventListener('click',function(){
@@ -15,7 +17,9 @@ addBtn.addEventListener('click',function(){
     counter.innerHTML= count;  
     if(count > 0){
         counter.style.color = "green";
-    }  
+    }else if(count === 0){
+        counter.style.color = "black";
+    }
 }) 
 
  
